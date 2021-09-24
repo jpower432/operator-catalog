@@ -22,6 +22,9 @@ operator_bundles:
 - name: devsecops-operator
   img: quay.io/redhatgov/devsecops-operator-bundle
   tag: 0.0.4
+- name: gitlab-operator
+  img: quay.io/jpower_personal/gitlab-operator-bundle
+  tag: 0.2.0
 
 # - name: your-operator
 #   bundle_img: quay.io/your-project/your-operator-bundle
